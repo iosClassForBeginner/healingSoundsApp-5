@@ -2,6 +2,8 @@
   
 # 第5回: １時間でiPhoneアプリを作ろう (2016/07/31)
 
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/healingSoundsApp-5/blob/master/Assets/img.png" /></div>
+  
   当アカウントへ訪れていただき、誠にありがとうございます。第5回アプリ教室では、サウンドアプリを作ります。以下、アプリを作る上で、重要となるポイントをまとめました。自分のペースで勉強したい、勉強前に復習したい、内容を復習したい場合、ご利用ください。
 
 ## オーディオプレイヤーの再生  
