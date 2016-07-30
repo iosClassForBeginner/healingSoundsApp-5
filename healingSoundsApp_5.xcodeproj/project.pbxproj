@@ -17,6 +17,7 @@
 		04E56AED1D4C58D600F316E6 /* healingSoundsApp_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E56AEC1D4C58D600F316E6 /* healingSoundsApp_5UITests.swift */; };
 		04E56AFF1D4C5EED00F316E6 /* headphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E56AFE1D4C5EED00F316E6 /* headphone.png */; };
 		04E56B031D4C5FE100F316E6 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E56B021D4C5FE100F316E6 /* sound.mp3 */; };
+		04E56B051D4C6DCB00F316E6 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E56B041D4C6DCB00F316E6 /* img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		04E56AEE1D4C58D600F316E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E56AFE1D4C5EED00F316E6 /* headphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headphone.png; sourceTree = "<group>"; };
 		04E56B021D4C5FE100F316E6 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		04E56B041D4C6DCB00F316E6 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		04E56AFD1D4C5EED00F316E6 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				04E56B041D4C6DCB00F316E6 /* img.png */,
 				04E56B021D4C5FE100F316E6 /* sound.mp3 */,
 				04E56AFE1D4C5EED00F316E6 /* headphone.png */,
 			);
@@ -249,6 +252,7 @@
 				04E56AFF1D4C5EED00F316E6 /* headphone.png in Resources */,
 				04E56AD71D4C58D600F316E6 /* LaunchScreen.storyboard in Resources */,
 				04E56AD41D4C58D600F316E6 /* Assets.xcassets in Resources */,
+				04E56B051D4C6DCB00F316E6 /* img.png in Resources */,
 				04E56ACF1D4C58D600F316E6 /* Main.storyboard in Resources */,
 				04E56B031D4C5FE100F316E6 /* sound.mp3 in Resources */,
 			);
@@ -504,6 +508,7 @@
 				04E56AF31D4C58D600F316E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E56AF41D4C58D600F316E6 /* Build configuration list for PBXNativeTarget "healingSoundsApp_5Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				04E56AF61D4C58D600F316E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E56AF71D4C58D600F316E6 /* Build configuration list for PBXNativeTarget "healingSoundsApp_5UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				04E56AF91D4C58D600F316E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
