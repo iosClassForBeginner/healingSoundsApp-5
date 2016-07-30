@@ -15,6 +15,8 @@
 		04E56AD71D4C58D600F316E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E56AD51D4C58D600F316E6 /* LaunchScreen.storyboard */; };
 		04E56AE21D4C58D600F316E6 /* healingSoundsApp_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E56AE11D4C58D600F316E6 /* healingSoundsApp_5Tests.swift */; };
 		04E56AED1D4C58D600F316E6 /* healingSoundsApp_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E56AEC1D4C58D600F316E6 /* healingSoundsApp_5UITests.swift */; };
+		04E56AFF1D4C5EED00F316E6 /* headphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E56AFE1D4C5EED00F316E6 /* headphone.png */; };
+		04E56B031D4C5FE100F316E6 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E56B021D4C5FE100F316E6 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04E56AE81D4C58D600F316E6 /* healingSoundsApp_5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = healingSoundsApp_5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E56AEC1D4C58D600F316E6 /* healingSoundsApp_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healingSoundsApp_5UITests.swift; sourceTree = "<group>"; };
 		04E56AEE1D4C58D600F316E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E56AFE1D4C5EED00F316E6 /* headphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headphone.png; sourceTree = "<group>"; };
+		04E56B021D4C5FE100F316E6 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		04E56ABD1D4C58D500F316E6 = {
 			isa = PBXGroup;
 			children = (
+				04E56AFD1D4C5EED00F316E6 /* Assets */,
 				04E56AC81D4C58D600F316E6 /* healingSoundsApp_5 */,
 				04E56AE01D4C58D600F316E6 /* healingSoundsApp_5Tests */,
 				04E56AEB1D4C58D600F316E6 /* healingSoundsApp_5UITests */,
@@ -126,6 +131,15 @@
 				04E56AEE1D4C58D600F316E6 /* Info.plist */,
 			);
 			path = healingSoundsApp_5UITests;
+			sourceTree = "<group>";
+		};
+		04E56AFD1D4C5EED00F316E6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04E56B021D4C5FE100F316E6 /* sound.mp3 */,
+				04E56AFE1D4C5EED00F316E6 /* headphone.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E56AFF1D4C5EED00F316E6 /* headphone.png in Resources */,
 				04E56AD71D4C58D600F316E6 /* LaunchScreen.storyboard in Resources */,
 				04E56AD41D4C58D600F316E6 /* Assets.xcassets in Resources */,
 				04E56ACF1D4C58D600F316E6 /* Main.storyboard in Resources */,
+				04E56B031D4C5FE100F316E6 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
